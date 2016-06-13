@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>Background Changer</title>
+        <link type="text/css" rel="stylesheet" href="template.css">
+    </head>
+    <body id="changeColor">
+        <!--We can use noscript to show that JavaScript is not enabled.-->
+        <div>
+            <noscript>What is this, 1999? Enable your JavaScript!</noscript>
+        </div>
+        <div>
+             <label>Change Text Color: </label><input type="text" id="color" onchange="txtcolor(this)"> 
+        </div>
+        
+        <div>
+          <label>Change Background Color: </label><input type="text" id="bgcolor" onchange="bgcolor(this)"> 
+        </div>
+        
+        <button onclick="reset()">Reset All</button>
+        <script src="color.js"></script>
+    </body>
+</html>
+
